@@ -1,0 +1,4 @@
+- hosts: lxd_server
+  sudo: yes
+  roles:
+    - lxd_server
