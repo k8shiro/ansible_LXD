@@ -1,4 +1,8 @@
-- hosts: lxd_server
+- hosts: init_lxd
   sudo: yes
   roles:
-    - lxd_server
+    - init_lxd
+- hosts: create_target
+  sudo: yes
+  roles:
+    - create_target
